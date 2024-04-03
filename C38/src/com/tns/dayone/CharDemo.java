@@ -15,7 +15,12 @@ public class CharDemo {
 		char var2 = '\u20AC';
 		System.out.println(var2);
 // ASCI code representation 
-		int a = 'A';
-		System.out.println(a);
+		int rollno = 'A';
+		System.out.println(rollno);
+		
+		for (int i = 64; i > 0; i--) {
+			  System.out.println(311821104001l + i);
+			}
 	}
+	
 }
