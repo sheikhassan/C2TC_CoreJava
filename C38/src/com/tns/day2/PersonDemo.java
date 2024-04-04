@@ -21,7 +21,7 @@ public class PersonDemo {
 		System.out.println("Enter Person details : Name, age and city");
 		name = sc.nextLine();
 		age = sc.nextInt();
-		city = sc.nextLine();
+		city = sc.nextLine();	
 		p1 = new Person(name, age, city);
 		// parameterized constructor invoked);
 		System.out.println("Person Details Name : " + p1.getPersonName() + "\tAge : " + p1.getPersonAge() + "\tCity : "
