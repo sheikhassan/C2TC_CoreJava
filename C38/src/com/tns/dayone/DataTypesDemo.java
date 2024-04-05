@@ -1,33 +1,26 @@
 package com.tns.dayone;
 
 public class DataTypesDemo {
-	
 	public static void main(String[] args) {
-		int value1 = 9/2;
-		
-		float value2 = 101/61;
-		
-		double value3 = 10d/6d;
-		
-		float value4 = 5/2.5f;//float division
-		
-		System.out.println("value1" + value1);
-		
-		System.out.println("value2" + value2);
-		
-		System.out.println("value3" + value3);
-		
-		System.out.println("value4" + value4);
-		
-		int marker = 512;
-		
-	//assigning expressiion to variable
-		
-		double percentage = marker * 0.46f;
-		
-		System.out.println("percentage: " + percentage);
-			
-		
+		// assigning single character literal
+		char ch = 'a';
+		System.out.println(ch);
+		// assigning number to char
+		char ch1 = 65;
+		System.out.println(ch1);
+		// assigning unicode to char
+		char var1 = '\u00A7';
+		System.out.println(var1);
+		// Unicode representation
+		char var2 = '\u20AC';
+		System.out.println(var2);
+		// ASCI code representation
+		int rollno = 'A';
+		System.out.println(rollno);
+
+		for (int i = 64; i > 0; i--) {
+			System.out.println(311821104001l + i);
+		}
 	}
 
 }
