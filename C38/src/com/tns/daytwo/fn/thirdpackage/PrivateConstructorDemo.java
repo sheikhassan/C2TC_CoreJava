@@ -2,7 +2,7 @@ package com.tns.daytwo.fn.thirdpackage;
 
 public class PrivateConstructorDemo {
 	
-	public static void main(String s[]) {
+	public static void main(String [] args) {
 		
 // Can't create object with private constructor
 		
